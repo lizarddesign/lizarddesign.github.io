@@ -5,3 +5,9 @@ h1, p {
 body {
 	background-color: black;
 }
+
+#slogan {
+	text-align: center;
+	font-size: 24px;
+	font-weight: 800;
+}

@@ -6,7 +6,7 @@ body {
 	background-color: black;
 }
 
-#slogan {
+.slogan {
 	text-align: center;
 	font-size: 24px;
 	font-weight: 800;

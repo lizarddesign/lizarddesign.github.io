@@ -4,10 +4,12 @@ h1, p {
 
 body {
 	background-color: black;
+	font-family: Helvetica, sans-serif;
 }
 
 #slogan {
 	font-size: 20px;
-	font-weight: 650;
-	font-kerning: 20px;
+	font-weight: 400;
+	font-kerning: 40px;
+
 }

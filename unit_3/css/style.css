@@ -20,12 +20,13 @@ body {
 
 h1 {
 	color: #ffffff;
-	font-weight: 400;
+	font-weight: 300;
 }
 
 nav a {
 	margin-right: 10px;
 	color: #ffffff;
+	font-weight: 300;
 	/*float: right;*/
 }
 
@@ -58,7 +59,7 @@ p.slogan {
 	font-weight: 300;
 	font-kerning: 100px;
 	margin-left: 80px;
-	padding: 35% 0;
+	padding: 30% 0;
 }
 
 footer {

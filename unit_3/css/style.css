@@ -43,7 +43,6 @@ a:hover, active {
 #heroimg {
 	background-image: url(/lizarddesign.github.io/unit_3/images/emvbackground-1632x1200.jpg); /*path for github*/
 	background-repeat: no-repeat;
-	background-size: cover;
 	height: 800px;
 	max-width: 100%;
 	position: relative;

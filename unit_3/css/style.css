@@ -6,8 +6,23 @@
 
 /*css*/
 header {
-	background-color: #000000;
+	background-color: #ffffff;
 	padding: 20px;
+}
+
+/*@media screen and (min-width:480px){
+        body{
+        background-image: url(/lizarddesign.github.io/unit_3/images/emvbackground-1632x1200.jpg);  path for github
+        background-repeat: no-repeat;
+    }*/
+
+hr {
+	/*width: 80%;*/
+	height: 3px;
+	background-color: #000000;
+	color: #000000;
+	border: 0 none;
+	/*margin: 5px auto;*/
 }
 
 body {
@@ -19,20 +34,20 @@ body {
 }
 
 h1 {
-	color: #ffffff;
+	color: #222222;
 	font-weight: 300;
 }
 
 nav a {
 	margin-right: 10px;
-	color: #ffffff;
+	color: #222222;
 	font-weight: 300;
 	/*float: right;*/
 }
 
 
 a:link, visited {
-	color: #ffffff;
+	color: #222222;
 	text-decoration: none;
 	/*margin-left: 20px;*/ 
 }
@@ -46,18 +61,11 @@ a:hover, active {
 	/*background-image: url(///Users/elizabethvellutini/GitHub/lizarddesign.github.io/unit_3/images/emvbackground-1632x1200.jpg); /*path for desktop*/
 	background-repeat: no-repeat;
 	background-size: 100% auto;
-}
-
-/*@media screen and (min-width:480px){
-        body{
-        background-image: url(/lizarddesign.github.io/unit_3/images/emvbackground-1632x1200.jpg);  path for github
-        background-repeat: no-repeat;
-    }*/
 
 p.slogan {
 	font-size: 38px;
 	font-weight: 400;
-	font-kerning: 100px;
+	letter-spacing: 0.075em;
 	margin-left: 80px;
 	padding: 35% 0;
 }
@@ -65,8 +73,8 @@ p.slogan {
 footer {
 	font-size: 15px;
 	font-weight: 300;
-	color: white;
-	background-color: #000000;
+	color: #222222;
+	background-color: #ffffff;
 	padding: 20px;
 	text-align: center;
 }

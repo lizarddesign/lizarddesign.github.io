@@ -4,17 +4,17 @@
 	margin: 0;
 }
 
-/*css*/
-header {
-	background-color: #ffffff;
-	padding: 20px;
-}
-
 /*@media screen and (min-width:480px){
         body{
         background-image: url(/lizarddesign.github.io/unit_3/images/emvbackground-1632x1200.jpg);  path for github
         background-repeat: no-repeat;
     }*/
+
+/*css*/
+header {
+	background-color: #ffffff;
+	padding: 20px;
+}
 
 hr {
 	/*width: 80%;*/
@@ -61,6 +61,7 @@ a:hover, active {
 	/*background-image: url(///Users/elizabethvellutini/GitHub/lizarddesign.github.io/unit_3/images/emvbackground-1632x1200.jpg); /*path for desktop*/
 	background-repeat: no-repeat;
 	background-size: 100% auto;
+}
 
 p.slogan {
 	font-size: 38px;

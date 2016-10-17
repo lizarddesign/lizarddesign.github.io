@@ -49,6 +49,11 @@ div.home {
 	/*max-height: 1023px;*/
 }
 
+@media screen and (min-width:480px){
+        body{
+        background-image: url(/lizarddesign.github.io/unit_3/images/emvbackground-1632x1200.jpg); /*path for github*/;
+    }
+
 #slogan {
 	font-size: 38px;
 	font-weight: 315;

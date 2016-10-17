@@ -65,7 +65,7 @@ div.heroimg {
 
 #slogan {
 	font-size: 38px;
-	font-weight: 400;
+	font-weight: 600;
 	letter-spacing: 0.075em;
 	/*margin-left: 80px;*/
 	margin-left: 25%;
@@ -78,6 +78,8 @@ section {
 	margin-left: 25%;
 	/*margin-left: 80px;*/
 	padding: 20px 0 35%;
+	font-weight: 400;
+	letter-spacing: 0.075em;
 }
 
 ul {

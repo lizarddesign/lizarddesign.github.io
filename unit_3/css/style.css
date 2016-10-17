@@ -45,8 +45,6 @@ a:hover, active {
 	background-repeat: no-repeat;
 	height: auto;
 	max-width: 100%;
-	position: relative;
-	margin: 0 auto;
 	/*max-height: 1023px;*/
 }
 

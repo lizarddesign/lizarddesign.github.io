@@ -45,14 +45,12 @@ a:hover, active {
 	/*background-image: url(///Users/elizabethvellutini/GitHub/lizarddesign.github.io/unit_3/images/emvbackground-1632x1200.jpg); /*path for desktop*/
 	background-repeat: no-repeat;
 	background-size: 100% auto;
-	/*height: 100%;
-	max-width: 100%;*/
 }
 
-/*@media screen and (min-width:480px){
+@media screen and (min-width:480px){
         body{
-        background-image: url(/lizarddesign.github.io/unit_3/images/emvbackground-1632x1200.jpg); /*path for github*//*;
-    }*/
+        background-image: url(/lizarddesign.github.io/unit_3/images/emvbackground-1632x1200.jpg); /*path for github*/
+    }
 
 p.slogan {
 	font-size: 38px;

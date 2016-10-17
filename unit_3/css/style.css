@@ -41,7 +41,7 @@ a:hover, active {
 }
 
 div.home {
-	background-image: url(///Users/elizabethvellutini/GitHub/lizarddesign.github.io/unit_3/images/emvbackground-1632x1200.jpg);
+	background-image: url(/lizarddesign.github.io/unit_3/images/emvbackground-1632x1200.jpg);
 	min-height: 1023px;
 	max-width: 100%;
 	/*max-height: 1023px;*/

@@ -41,7 +41,7 @@ a:hover, active {
 }
 
 #heroimg {
-	background-image: url(/lizarddesign.github.io/unit_3/images/emvbackground-1632x1200.jpg); /*path for github*/
+	background-image: url(/lizarddesign.github.io/unit_3/images/emvbackground-1632x1400.jpg); /*path for github*/
 	/*background-image: url(///Users/elizabethvellutini/GitHub/lizarddesign.github.io/unit_3/images/emvbackground-1632x1200.jpg); /*path for desktop*/
 	background-repeat: no-repeat;
 	background-size: 100% auto;
@@ -58,7 +58,7 @@ p.slogan {
 	font-weight: 400;
 	font-kerning: 100px;
 	margin-left: 80px;
-	padding: 40% 0;
+	padding: 35% 0;
 }
 
 footer {

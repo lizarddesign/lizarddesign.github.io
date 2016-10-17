@@ -50,7 +50,7 @@ a:hover, active {
 	color: #0097E5;
 }
 
-#heroimg {
+div.heroimg {
 	background-image: url(/lizarddesign.github.io/unit_3/images/emvbackground-1632x1400.jpg); /*path for github*/
 	/*background-image: url(///Users/elizabethvellutini/GitHub/lizarddesign.github.io/unit_3/images/emvbackground-1632x1200.jpg); /*path for desktop*/
 	background-repeat: no-repeat;
@@ -63,7 +63,7 @@ a:hover, active {
         background-repeat: no-repeat;
     }*/
 
-p.slogan {
+#slogan {
 	font-size: 38px;
 	font-weight: 400;
 	letter-spacing: 0.075em;

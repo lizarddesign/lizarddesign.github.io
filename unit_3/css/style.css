@@ -51,8 +51,8 @@ a:hover, active {
 }
 
 div.heroimg {
-	/*background-image: url(/lizarddesign.github.io/unit_3/images/emvbackground-1632x1400.jpg); /*path for github*/
-	background-image: url(///Users/elizabethvellutini/GitHub/lizarddesign.github.io/unit_3/images/emvbackground-1632x1200.jpg); /*path for desktop*/
+	background-image: url(/lizarddesign.github.io/unit_3/images/emvbackground-1632x1400.jpg); /*path for github*/
+	/*background-image: url(///Users/elizabethvellutini/GitHub/lizarddesign.github.io/unit_3/images/emvbackground-1632x1200.jpg); /*path for desktop*/
 	background-repeat: no-repeat;
 	background-size: 100% auto;
 }

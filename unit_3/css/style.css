@@ -20,7 +20,7 @@ body {
 
 h1 {
 	color: #ffffff;
-	font-weight: 600;
+	font-weight: 400;
 }
 
 nav a {
@@ -55,7 +55,7 @@ a:hover, active {
 
 p.slogan {
 	font-size: 38px;
-	font-weight: 400;
+	font-weight: 300;
 	font-kerning: 100px;
 	margin-left: 80px;
 	padding: 35% 0;
@@ -63,7 +63,7 @@ p.slogan {
 
 footer {
 	font-size: 15px;
-	font-weight: 400;
+	font-weight: 300;
 	color: white;
 	background-color: #000000;
 	padding: 20px;

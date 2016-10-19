@@ -32,6 +32,14 @@ h1 {
 	font-weight: 300;
 }
 
+h2 {
+	color: #222124;
+	font-weight: 400;
+	font-size: 24px;
+	font-family: "Source Sans Pro", Helvetica, sans-serif;
+	padding-bottom: 1%; 
+}
+
 nav a {
 	margin-right: 10px;
 	color: #222124;
@@ -70,7 +78,7 @@ div.heroimg {
 	/*margin-left: 80px;*/
 	margin-left: 25%;
 	/*vertical-align: middle;*/
-	padding: 15% 0 0;
+	padding: 15% 0 1%;
 	max-height: 40px;
 }
 
@@ -84,6 +92,11 @@ section {
 
 ul {
 	padding-left: 20px;
+	padding-bottom: 20px;
+}
+
+li {
+	padding-bottom: 5px;
 }
 
 footer {

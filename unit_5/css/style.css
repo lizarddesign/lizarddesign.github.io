@@ -57,7 +57,7 @@ a:hover, active {
 	margin: 0 auto;
 }*/
 
-article.large, article.small {
+div.largethumb, div.smallthumb {
 	border: 1px black solid;
     padding: 20px;
     float: left;

@@ -19,7 +19,7 @@ body {
 #wrapper {
 	background-color: #orange;
 	margin: 0 auto;
-	width: 1085px;
+	max-width: 1085px;
 }
 
 header {
@@ -52,15 +52,23 @@ a:hover, active {
 	color: #0097E5;
 }
 
-/*#portfolio {
+#portfolio {
 	background-color: yellow;
-	margin: 0 auto;
-}*/
+}
 
-div.largethumb, div.smallthumb {
+#largethumb {
 	border: 1px black solid;
     padding: 20px;
     float: left;
+    margin: 0 auto;
+	/*padding: 5px;*/
+}
+
+#smallthumb {
+	border: 1px black solid;
+    padding: 20px;
+    float: left;
+    margin: 0 auto;
 	/*padding: 5px;*/
 }
 

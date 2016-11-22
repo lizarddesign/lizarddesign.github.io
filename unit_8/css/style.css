@@ -1,0 +1,99 @@
+/*google fonts*/
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600);
+
+/*basic reset*/
+* {
+	padding: 0;
+	margin: 0;
+}
+
+/*css*/
+body {
+	background-color: #ffffff;
+	font-family: 'Source Sans Pro', Helvetica, sans-serif;
+	font-size: 20px;
+	color: #222124;
+	line-height: 1.5em;
+}
+
+#wrapper {
+	background-color: #ffffff;
+	margin: 0 auto;
+	max-width: 1085px;
+}
+
+header {
+	border-bottom: 2px black solid;
+	padding: 20px;
+}
+
+h1 {
+	color: #222124;
+	font-weight: 300;
+	margin-bottom: 10px;
+	font-size: 2em;
+}
+
+nav a {
+	margin-right: 10px;
+	color: #222124;
+	font-weight: 300;
+	/*float: right;*/
+}
+
+a:link, visited {
+	color: #222124;
+	text-decoration: none;
+	/*margin-left: 20px;*/ 
+}
+
+a:hover, active {
+	color: #0097E5;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+#portfolio {
+	/*background-color: yellow;*/
+	margin: 0 auto;
+}
+
+#largethumb {
+	/*border: 1px black solid;*/
+    float: left;
+	padding: 21px 21px 5px 21px;
+	/*background-color: red;*/
+}
+
+#smallthumb {
+	/*border: 1px black solid;*/
+    float: left;
+	padding: 21px 21px 5px 21px;
+	/*background-color: blue;*/
+}
+
+hr {
+	/*width: 80%;*/
+	height: 2px;
+	background-color: #000000;
+	color: #000000;
+	border: 0 none;
+	margin: 10px auto;
+}
+
+footer {
+	font-size: 15px;
+	font-weight: 300;
+	color: #222124;
+	padding: 20px;
+	text-align: center;
+	/*border-top: 2px black solid;*/
+	clear: both;
+}

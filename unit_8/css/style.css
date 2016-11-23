@@ -71,13 +71,13 @@ a:hover, active {
 	width: 100%;
 }
 
-#largethumb {
+.largethumb {
     float: left;
 	/*padding: 21px 21px 5px 21px;*/
 	padding: 1.05em 1.05em .25em 1.05em;
 }
 
-#smallthumb {
+.smallthumb {
     float: left;
 	/*padding: 21px 21px 5px 21px;*/
 	padding: 1.05em 1.05em .25em 1.05em;
@@ -107,7 +107,7 @@ footer {
 }
 
 @media only screen and (max-width: 1083px) {
-	#largethumb, #smallthumb {
+	.largethumb, .smallthumb {
 		float: none;
 		width: auto;
 		text-align: center;

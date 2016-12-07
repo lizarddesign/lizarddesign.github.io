@@ -5,8 +5,15 @@
 
 		  <style type="text/css">
 			@media only screen and (min-width: 320px) and (max-width: 480px){
+				table {
+					width: 100%;
+				}
 
-				#main-table {
+				#logo {
+					width: 100% !important;
+				}
+
+				/*#main-table {
 					width: 100%;
 				}
 				#logo {
@@ -14,17 +21,39 @@
 				}
 				#td1 {
 					width: 50%;
-				}
+				}*/
+
 				a {
 					display: block;
 					text-align: center;
-					padding: 10px;
+					padding: 10px 0;
 				}
 				#button {
 					display: block;
 					vertical-align: center;
-					padding: 10px;
+					padding: 10px 0;
+					margin: 0 auto;
 				}
+
+				#arttext {
+					font-size: 1.15em !important;
+				}
+
+				#signtext {
+					padding-top: 1.25em;
+				}
+
+				.hide {
+					color: white !important;
+					font-size: 0em !important;
+				}
+
+				#hr {
+					padding-top: 1.25em;
+				}
+
+				/*style the td element not their associated class or id*/
+				td {display: block; width:100vw;}
 
 		}
 
@@ -35,18 +64,19 @@
 
 	<body style="margin: 0;">
 
-		<table cellspacing="0" style="font-family: Helvetica, Arial, sans-serif; font-size: 16px;" cellpadding="0" border="0" width="100%" align="center" id="main-table">
+		<table cellspacing="0" style="font-family: Helvetica, Arial, sans-serif; font-size: 16px;" cellpadding="0" border="0" width="100%" align="center">
 
 			<tr>
-				<td align="center" colspan="3" style="border-bottom: solid .125em;" id="td1">
+				<td align="center" colspan="3" style="border-bottom: solid .125em;">
 				<img src="http://emvdesign.com/liz/ga/logo-600x83.png" style="width: 600px;" alt="EMV/DESIGN" id="logo">
 				</td>
 			</tr>
 			
 			<tr>
-				<td align="center" colspan="3" style="color: #b11a1c; font-size: 1.5em; line-height: 3.25em; width: 600;">ART SALE! RECEIVE 20% OFF</td>
+				<td align="center" colspan="3" style="color: #b11a1c; font-size: 1.5em; line-height: 3.25em; width: 600;" id="arttext">ART SALE! RECEIVE 20% OFF</td>
 			</tr>
 			
+			<tr></tr>
 			<tr>
 				<td align="center" colspan="1">
 					<a href="http://www.dickblick.com/products/holbein-acryla-artists-acrylics/" target="_blank"><img src="http://emvdesign.com/liz/ga/acrylics-2-200x200.jpg" style="width: 200;" alt="Acrylics"></a>
@@ -61,17 +91,17 @@
 			</tr>
 			
 				<tr>
-					<td align="center" style="font-size: .875em; color: black; line-height: 1.25em; padding-bottom: 2em;">Acrylics</td>
-					<td align="center" style="font-size: .875em; color: black; line-height: 1.25em; padding-bottom: 2em;">Handmade Papers</td>
-					<td align="center" style="font-size: .875em; color: black; line-height: 1.25em; padding-bottom: 2em;">Watercolors</td>
+					<td align="center" style="font-size: .875em; color: black; line-height: 1.25em; padding-bottom: 2em;" class="hide">Acrylics</td>
+					<td align="center" style="font-size: .875em; color: black; line-height: 1.25em; padding-bottom: 2em;" class="hide">Handmade Papers</td>
+					<td align="center" style="font-size: .875em; color: black; line-height: 1.25em; padding-bottom: 2em;" class="hide">Watercolors</td>
 				</tr>
 
 			<tr>
-				<td colspan="3" style="border-bottom: solid .125em;"></td>
+				<td colspan="3" style="border-bottom: solid .125em;" id="hr"></td>
 			</tr>
 
 			<tr>
-				<td align="center" colspan="2" style="line-height: 1.5em;">Sign up for special email sales and promotions! <br>Click the Learn More button.
+				<td align="center" colspan="2" style="line-height: 1.5em;" id="signtext">Sign up for special email sales and promotions! <br>Click the Learn More button.
 				</td>
 
 				<td colspan="1">
